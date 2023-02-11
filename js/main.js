@@ -1,8 +1,14 @@
 let menu = document.querySelector('.menu-icon')
+let navbar = document.querySelector('.navbar')
 
 menu.addEventListener('click', function () {
+    navbar.classList.toggle('open-menu')
     menu.classList.toggle('move')
 })
+window.onscroll = () => {
+    navbar.classList.remove('open-menu')
+    menu.classList.remove('move')
+}
 
 var swiper = new Swiper(".reviews-content", {
     spaceBetween: 30,
