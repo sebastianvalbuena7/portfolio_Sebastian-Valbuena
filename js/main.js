@@ -21,7 +21,7 @@ var swiper = new Swiper(".reviews-content", {
         el: ".swiper-pagination",
         clickable: true,
     },
-});
+})
 
 // Email JS
 function validate() {
