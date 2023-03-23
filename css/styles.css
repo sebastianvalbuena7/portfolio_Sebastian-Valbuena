@@ -374,6 +374,7 @@ header {
 }
 
 .portfolio-overlay h2 {
+    text-align: center;
     font-size: 1.6rem;
     font-weight: 600;
     margin-bottom: 10px;
@@ -536,6 +537,7 @@ header {
     position: fixed;
     bottom: -100%;
     right: 1.5rem;
+    z-index: 1000;
 }
 
 .scroll-top .bx {
